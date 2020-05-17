@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42EF0FBA24714C4500DE0A3C /* takeru.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF0FB924714C4500DE0A3C /* takeru.png */; };
+		42EF0FC224714C7800DE0A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EF0FC124714C7800DE0A3C /* AppDelegate.swift */; };
+		42EF0FC424714C7800DE0A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EF0FC324714C7800DE0A3C /* ViewController.swift */; };
+		42EF0FC624714C7D00DE0A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EF0FC524714C7D00DE0A3C /* Assets.xcassets */; };
+		42EF0FC924714C7D00DE0A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EF0FC724714C7D00DE0A3C /* Main.storyboard */; };
 		BE8832AC2454424600326232 /* CVPixelBuffer+SimpleDALPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8832AB2454424600326232 /* CVPixelBuffer+SimpleDALPlugin.swift */; };
 		BEF5B53A2453D9CA00E7FC18 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5B5392453D9CA00E7FC18 /* Main.swift */; };
 		BEF5B53D2453DFA200E7FC18 /* CoreMediaIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF5B53C2453DFA200E7FC18 /* CoreMediaIO.framework */; };
@@ -20,6 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42EF0FB924714C4500DE0A3C /* takeru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takeru.png; sourceTree = "<group>"; };
+		42EF0FBF24714C7800DE0A3C /* DebugApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebugApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EF0FC124714C7800DE0A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42EF0FC324714C7800DE0A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42EF0FC524714C7D00DE0A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42EF0FC824714C7D00DE0A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EF0FCA24714C7D00DE0A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EF0FCB24714C7D00DE0A3C /* DebugApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DebugApp.entitlements; sourceTree = "<group>"; };
 		BE8832AB2454424600326232 /* CVPixelBuffer+SimpleDALPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+SimpleDALPlugin.swift"; sourceTree = "<group>"; };
 		BEF5B52F2453D9B300E7FC18 /* SimpleDALPlugin.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDALPlugin.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF5B5322453D9B300E7FC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +49,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		42EF0FBC24714C7800DE0A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEF5B52C2453D9B300E7FC18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,10 +67,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42EF0FC024714C7800DE0A3C /* DebugApp */ = {
+			isa = PBXGroup;
+			children = (
+				42EF0FC124714C7800DE0A3C /* AppDelegate.swift */,
+				42EF0FC324714C7800DE0A3C /* ViewController.swift */,
+				42EF0FC524714C7D00DE0A3C /* Assets.xcassets */,
+				42EF0FC724714C7D00DE0A3C /* Main.storyboard */,
+				42EF0FCA24714C7D00DE0A3C /* Info.plist */,
+				42EF0FCB24714C7D00DE0A3C /* DebugApp.entitlements */,
+			);
+			path = DebugApp;
+			sourceTree = "<group>";
+		};
 		BEF5B5262453D9B300E7FC18 = {
 			isa = PBXGroup;
 			children = (
 				BEF5B5312453D9B300E7FC18 /* SimpleDALPlugin */,
+				42EF0FB924714C4500DE0A3C /* takeru.png */,
+				42EF0FC024714C7800DE0A3C /* DebugApp */,
 				BEF5B5302453D9B300E7FC18 /* Products */,
 				BEF5B53B2453DFA200E7FC18 /* Frameworks */,
 			);
@@ -60,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				BEF5B52F2453D9B300E7FC18 /* SimpleDALPlugin.plugin */,
+				42EF0FBF24714C7800DE0A3C /* DebugApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +129,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		42EF0FBE24714C7800DE0A3C /* DebugApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EF0FCC24714C7D00DE0A3C /* Build configuration list for PBXNativeTarget "DebugApp" */;
+			buildPhases = (
+				42EF0FBB24714C7800DE0A3C /* Sources */,
+				42EF0FBC24714C7800DE0A3C /* Frameworks */,
+				42EF0FBD24714C7800DE0A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DebugApp;
+			productName = DebugApp;
+			productReference = 42EF0FBF24714C7800DE0A3C /* DebugApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BEF5B52E2453D9B300E7FC18 /* SimpleDALPlugin */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEF5B5352453D9B300E7FC18 /* Build configuration list for PBXNativeTarget "SimpleDALPlugin" */;
@@ -116,9 +169,13 @@
 		BEF5B5272453D9B300E7FC18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = com.seanchas116;
 				TargetAttributes = {
+					42EF0FBE24714C7800DE0A3C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
 					BEF5B52E2453D9B300E7FC18 = {
 						CreatedOnToolsVersion = 11.4.1;
 						LastSwiftMigration = 1140;
@@ -139,21 +196,41 @@
 			projectRoot = "";
 			targets = (
 				BEF5B52E2453D9B300E7FC18 /* SimpleDALPlugin */,
+				42EF0FBE24714C7800DE0A3C /* DebugApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		42EF0FBD24714C7800DE0A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EF0FC624714C7D00DE0A3C /* Assets.xcassets in Resources */,
+				42EF0FC924714C7D00DE0A3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEF5B52D2453D9B300E7FC18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42EF0FBA24714C4500DE0A3C /* takeru.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		42EF0FBB24714C7800DE0A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EF0FC424714C7800DE0A3C /* ViewController.swift in Sources */,
+				42EF0FC224714C7800DE0A3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEF5B52B2453D9B300E7FC18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,7 +249,62 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		42EF0FC724714C7D00DE0A3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EF0FC824714C7D00DE0A3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		42EF0FCD24714C7D00DE0A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DebugApp/DebugApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5M2EQKMGE5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DebugApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.DebugApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		42EF0FCE24714C7D00DE0A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DebugApp/DebugApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5M2EQKMGE5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DebugApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.DebugApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		BEF5B5332453D9B300E7FC18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -288,7 +420,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5M2EQKMGE5;
 				INFOPLIST_FILE = SimpleDALPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +444,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5M2EQKMGE5;
 				INFOPLIST_FILE = SimpleDALPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,6 +464,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		42EF0FCC24714C7D00DE0A3C /* Build configuration list for PBXNativeTarget "DebugApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EF0FCD24714C7D00DE0A3C /* Debug */,
+				42EF0FCE24714C7D00DE0A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BEF5B52A2453D9B300E7FC18 /* Build configuration list for PBXProject "SimpleDALPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
